@@ -2,7 +2,7 @@ import pybullet as p
 import pybullet_data
 import time
 physicsClient = p.connect(p.GUI)
-p.setADditionalSearchPath(pybullet_data.getDataPath())
+p.setAdditionalSearchPath(pybullet_data.getDataPath())
 #list for use in for loop
 list = range(1000)
 p.setGravity(0,0,-9.8)
